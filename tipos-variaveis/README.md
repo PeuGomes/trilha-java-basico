@@ -1,18 +1,69 @@
-## Getting Started
+# Tipos e Variáveis
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Em Java, nós temos **8 tipos primitivos**:
 
-## Folder Structure
+ 1. - byte
+2. -  short
+3. -   int
+4. -   long
+5. -   boolean
+6. -   char
+7. -   float
+8. -   double
 
-The workspace contains two folders by default, where:
+# Podemos dividir os tipos em dois grandes grupos
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+O  **tipo boolean**  só recebe dois valores:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+-   **true**  = **verdadeiro**
+-   **false** = **falso**
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Dentro dos  **tipos numéricos**, temos duas subdvisões:
 
-## Dependency Management
+-   **Tipos integrais**
+-   **Tipos de ponto flutuante**
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Os  **tipos numéricos integrais**  são compostos por:
+
+-   **byte**
+-   **short**
+-   **int**
+-   **long**
+-   **char**
+Apesar de uma variável do  **tipo char**  receber um caractere, essa variável também pode receber valores:
+
+-   **Literais do tipo int**  (por isso o tipo ser numérico integral)
+-   **Unicode**
+
+# Intervalos dos tipos numéricos integrais da Linguagem Java
+
+**BSIL**:
+
+-   **byte**
+-   **short**
+-   **int**
+-   **long**
+
+**1329**:
+
+-   **byte**: vai de -128 a 127
+-   **short**: vai de -32.768 a 32.767
+-   **int**: vai de 2 bilhões e alguma coisa negativos a 2 bilhões e alguma coisa positivos
+-   **long**: vai de 9 e uma imensa quantidade de números negativos a 9 e uma imensa 	quantidade de números positivos.
+
+# Uma variável do tipo:
+
+-   **byte**: possui 1 byte de informação ou 8 bits
+-   **short**: possui 2 bytes de informação ou 16 bits
+-   **int**: possui 4 bytes de informação ou 32 bits
+-   **long**: possui 8 bytes de informação ou 64 bits
+
+# A família BCFD segue a mesma sequência da família BSIL, exceto pelo tipo boolean:
+
+-   **boolean**: possui normalmente 1 bit de informação, pois depende da arquitetura de computador
+#### A partir do char em diante, a sequência é a mesma do BCFD:
+-   **char**: possui 2 bytes de informação ou 16 bits;
+-   **float**: possui 4 bytes de informação ou 32 bits;
+-   **double**: possui 8 bytes de informação ou 64 bits.
+
+BSIL BCFD 1329.
