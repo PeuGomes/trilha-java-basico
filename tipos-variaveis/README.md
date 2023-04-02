@@ -68,6 +68,7 @@ Apesar de uma variável do  **tipo char**  receber um caractere, essa variável 
 
 BSIL BCFD 1329.
 
+# Tipos de Operadores
 ## Existem muitos tipos de operadores em Java aqui está alguns deles.
 
 1. -   Operador Unário,
