@@ -67,3 +67,27 @@ Apesar de uma variável do  **tipo char**  receber um caractere, essa variável 
 -   **double**: possui 8 bytes de informação ou 64 bits.
 
 BSIL BCFD 1329.
+
+## Existem muitos tipos de operadores em Java aqui está alguns deles.
+
+1. -   Operador Unário,
+ 2. -   Operador aritmético,
+ 3. -  Operador Ternário,
+ 4. - Operador Lógico OR
+
+#### Operador unário
+Os operadores unários requerem apenas um operando. Operadores unários são usados para executar várias operações, ou seja:
+
+-   Incrementando / decrementando um valor em um
+-   Negando uma expressão
+-   Invertendo o valor de um **boolean**
+
+#### Operadores aritméticos
+
+Operadores aritméticos são usados para executar: adição, subtração, multiplicação e divisão. Eles agem como operações matemáticas básicas.
+
+####  Operador Ternário
+O operador ternário é usado como um substituto para a instrução if-then-else e muito usado na programação Java. É o único operador condicional que leva três operandos.
+
+####  Operador OR: Lógico ||
+O operador lógico || não verifica a segunda condição se a primeira condição for verdadeira. Ele verifica a segunda condição apenas se a primeira for falsa.
