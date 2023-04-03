@@ -46,8 +46,18 @@ public class ContaTerminal {
                         input.nextLine();
 
                     } while (agencia == 0);
-                    System.out.println("Saldo: Ex: 20.0");
-                    double saldo = Double.parseDouble(input.next());
+                    double saldo =0;
+                    while(saldo ==0){
+                        try{
+                            System.out.print("\nDigite o Saldo: ");
+                            saldo = Double.parseDouble(input.next());
+                        }catch (Exception e) {
+                            System.out.println(
+                                    "\nOps... Digite com ponto Ex: 20.0 se digitar letras  digite corretamente o saldo.");
+                        }
+                    }
+                    
+                    
                     Cliente cliente = new Cliente(numero, agencia, saldo, nome);
                     System.out.println("\nOlá " + cliente.getNome()
                             + ", obrigado por criar uma conta em nosso banco, sua agência é:  " + cliente.getAgencia()
